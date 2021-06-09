@@ -23,7 +23,7 @@ Once we know that there will be a price change of over 3% in 5 hours with confid
 
 All the seemingly beautiful traditional indicators should only work for this type of prediction.
 
-Looking at traditional indicators, in technical analysis, they are all a function of historical prices. No matter how smart, natural, intuitive, complex, or sophisticated those indicators are, they are just at most 200 individual functions of historical price, volumes, and order books. The quantitative logic and intuition itself is worthless unless they contribute to the prediction accuracy.
+Looking at traditional indicators, in technical analysis, they are all a function of historical prices. No matter how smart, natural, intuitive, complex, or sophisticated those indicators are, they are just at most 200 individual functions of historical prices, volumes, and order book states. The smart quantitative logic and intuition itself are worthless unless they contribute to the prediction accuracy.
 
 That said, why should we keep sticking to a handful of traditional indicators, while a simple Deep Neural Network alone can find a best function among trillions of trillions candidate functions, which can approximate any continuous function of historical prices, like the hidden true indicator that we seek.
 
