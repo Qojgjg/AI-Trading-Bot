@@ -19,7 +19,7 @@ So, the least indicator we need should answer the question “Will be there a pr
 
 Examples are: There will be a price change of over 50% in 10 months, 3% in 48 hours, 3% in 6 hours, 2% in 3 hours, and 1% in 2 hours, each with a certain confidence.
 
-Once we know that there will be a price change of over 3% in 5 hours with confidence of 80%, then we decide to buy the asset right now in the plan of selling them at 3% higher price. Selling decision, however, is easier, because we will just sell when it’s time to take profit or stop loss.
+Once we know that there will be a price change of over 3% in 5 hours with confidence of 80%, then we decide to buy the asset right now in the hope of selling them at 3% higher price. Selling decision, however, is easier, because we will just sell when it’s time to take profit or stop loss.
 
 All the seemingly beautiful traditional indicators should only work for this type of prediction.
 
