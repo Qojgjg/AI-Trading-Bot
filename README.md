@@ -33,3 +33,5 @@ This project aims to achieve a significant performance gain of automatic trading
 
 The goal, therefore, is not building a full trading bot with a wide range of functionalities but a simply structured trading bot with rich AI indicators. AI is the focus of this project.
 
+As a data sicentist with years of experince in trading and trading strategies, I am sure that IF indicators based on modern AI do not work, THEN all traditional indicators also do not work. So, if this project, or AI indicators, fail then traditional indicators will also have failed.
+
