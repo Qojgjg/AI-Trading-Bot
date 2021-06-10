@@ -27,7 +27,7 @@ Looking at traditional indicators, in technical analysis, they are all a functio
 
 That said, why should we keep sticking to a handful of traditional indicators, while a simple Deep Neural Network alone can find a best function among trillions of trillions candidate functions, which can approximate any continuous function of historical prices, like the hidden true indicator that we seek.
 
-Traditional indicators are almost obsolete in this age of modern AI.
+Traditional indicators are almost obsolete in this age of modern AI, although they can be used as an input to AI indicators, together with price/volume/order book.
 
 This project aims to achieve a significant performance gain of automatic trading bot by exploring the potential of modern AI technologies.
 
