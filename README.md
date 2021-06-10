@@ -23,11 +23,11 @@ Once we know that there will be a price change of over 3% in 5 hours with confid
 
 All the seemingly beautiful traditional indicators should only work for this type of prediction.
 
-Looking at traditional indicators, in technical analysis, they are all a function of historical prices. No matter how smart, natural, intuitive, complex, or sophisticated those indicators are, they are just at most 200 individual functions of historical prices, volumes, and order book states. The smart quantitative logic and intuition itself are worthless unless they contribute to the prediction accuracy.
+Looking at traditional indicators, in technical analysis, they are all a function of historical prices. No matter how smart, natural, intuitive, complex, or sophisticated those indicators are, they are just at most 100+ individual functions of historical prices, volumes, and order book states. The smart quantitative logic and intuition itself are worthless unless they contribute to the prediction accuracy.
 
-That said, why should we keep sticking to a handful of traditional indicators, while a simple Deep Neural Network alone can find a best function among trillions of trillions candidate functions, which can approximate any continuous function of historical prices, like the hidden true indicator that we seek.
+That said, why should we keep sticking to a handful of traditional indicators, while a simple Deep Neural Network alone can find a best function among billions of candidate functions, which can approximate any continuous function of historical price, including the hidden true, almighty, indicator that we imagine. Although modern AI and Machine Learning technolgies; like Transformer, Embedding, other NLP techniques, LSTM/GRU, GAN, and VAE-GAN; don't directly apply to automatic trading, you feel they have huge potential in market games.
 
-Traditional indicators are almost obsolete in this age of modern AI, although they can be used as an input to AI indicators, together with price/volume/order book.
+Traditional indicators will eventually become almost obsolete in this age of modern AI, although they can be used as an auxilliary input to AI indicators, in addition to  price/volume/order book state.
 
 This project aims to achieve a significant performance gain of automatic trading bot by exploring the potential of modern AI technologies.
 
