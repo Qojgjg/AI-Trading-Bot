@@ -20,7 +20,7 @@ Net Profit for a round
    X (times) original quote amount,
 
 where 
-- % means the percentage of an amount over the original quote quantity that was possessed before entering,
+- % means the percentage of the referred amount over the original quote quantity that was possessed before entering,
 - total price change is the price difference between the two trend-changing points (clues) that call for entry and exit, respectively,
 - decision cost is the price change monitored/consumed, after the clue points, to finally decide on entering and exiting,
 - price slippage is the price difference between the buy/sell order and its actual fulfilling transaction,
@@ -37,14 +37,17 @@ Net Profit
 where they are all multiplied by 2 because there are two exchange actions: enter and exit.
 
 So, the least indicator that we need should answer the question "Will be there a price change of over 1.34%, in the near future?" or, in general,
-"Will be there a price change of over X% within Y time period?", where X and Y should be optimized for an aimed performance.
+
+"Will be there a price change of over X% within Y time period?", 
+
+where X and Y should be optimized for an aimed performance.
 
 Examples are: There will be a price change of over 50% in 10 months, 3% in 48 hours, 3% in 6 hours, and 2% in 3 hours, each with a certain confidence. It is better to shorten the time frame, because it is riskier to have longer time frame in technical analysis. These steep price changes are observed quite often in the crypto space.
 
 Once we know that there will be a price change of over 3% in 5 hours with confidence of 80%, for example, then we decide to buy the asset immediately in the hope of selling them back at a higher price. Selling decision, however, is easier, because we will just sell when it is time to take profit or stop loss.
 
-All the seemingly beautiful traditional indicators are only valuable to the extent to which they work for this type of prediction.
-Looking at traditional indicators, in technical analysis, they are all a function of historical prices. No matter how smart, natural, intuitive, complex, or sophisticated those indicators are, they are at most 100+ individual functions of historical prices, volumes, and order book states. The smart quantitative logic and intuition themselves are worthless unless they contribute to prediction accuracy.
+All the seemingly beautiful traditional indicators are only valuable to the extent to which they contribute to this type of prediction.
+Looking at traditional indicators, in technical analysis, they are all a function of historical prices/volumes/order book states. No matter how smart, natural, intuitive, complex, or sophisticated those indicators are, they are at most 100+ individual functions of historical prices, volumes, and order book states. The smart quantitative logic and intuition themselves are worthless unless they contribute to prediction accuracy.
 
 That said, why should we keep sticking to a handful of traditional indicators, while a simple Deep Neural Network alone can learn, or discover, a (proximation of the) profit-maximizing indicator from billions of candidates, which themselves are, and can approximate, any continuous function of historical price, including the true indicator that we ever want to discover.
 
