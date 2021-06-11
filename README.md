@@ -13,7 +13,7 @@ An example is
 - exiting the position: selling back the base amount 2.0 ETH for a new quote amount (original 5,000 + profit) USDT at a higher ETH/USDT price,
 - and settling the profit.
 
-(The following section is depicted in https://user-images.githubusercontent.com/85646618/121685078-151c3a80-caf2-11eb-928d-8d6d7a559cc1.png )
+(The following section is depicted in https://fleetpro.medium.com/is-it-time-to-enter-a-position-832b7628715f )
 
 We know that
 
