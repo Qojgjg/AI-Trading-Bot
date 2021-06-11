@@ -13,6 +13,8 @@ An example is
 - exiting the position: selling back the base amount 2.0 ETH for a new quote amount (original 5,000 + profit) USDT at a higher ETH/USDT price,
 - and settling the profit.
 
+(The following section is depicted in https://user-images.githubusercontent.com/85646618/121685078-151c3a80-caf2-11eb-928d-8d6d7a559cc1.png )
+
 We know that
 
 Net Profit for a round 
@@ -21,12 +23,12 @@ Net Profit for a round
 
 where 
 - % means the percentage of the referred amount over the original quote quantity that was possessed before entering,
-- total price change is the price difference between the two trend-changing points (clues) that call for entry and exit, respectively,
-- decision cost is the price change monitored/consumed, after the clue points, to finally decide on entering and exiting,
+- total price change is the price difference between the start of up-trending before entering and the start of down-trending before exiting,
+- decision cost is the price change monitored/consumed, after the starts of trending, to finally decide on entering and exiting,
 - price slippage is the price difference between the buy/sell order and its actual fulfilling transaction,
 - and exchange fees are the fees paid to the exchange on buying and selling,
 
-Total price change (TPC) is the only variable that should be predicted before deciding on entering a position. Note that the clues, so the TPC, are decided after consuming the dicision cost.
+Total price change (TPC) is the only variable that should be predicted before deciding on entering a position.
 
 An example is
 
