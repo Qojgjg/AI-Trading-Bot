@@ -25,7 +25,7 @@ Examples are: There will be a price change of over 50% in 10 months, 3% in 48 ho
 Once we know that there will be a price change of over 3% in 5 hours with confidence of 80%, for example, then we decide to buy the asset right now in the hope of selling them at 3% higher price. Selling decision, however, is easier, because we will just sell when it's time to take profit or stop loss.
 
 All the seemingly beautiful traditional indicators are only valuable to the extent to which they work for this type of prediction.
-Looking at traditional indicators, in technical analysis, they are all a function of historical prices. No matter how smart, natural, intuitive, complex, or sophisticated those indicators are, they are at most 100+ individual functions of historical prices, volumes, and order book states. The smart quantitative logic and intuition itself are worthless unless they contribute to the prediction accuracy.
+Looking at traditional indicators, in technical analysis, they are all a function of historical prices. No matter how smart, natural, intuitive, complex, or sophisticated those indicators are, they are at most 100+ individual functions of historical prices, volumes, and order book states. The smart quantitative logic and intuition themselves are worthless unless they contribute to prediction accuracy.
 
 That said, why should we keep sticking to a handful of traditional indicators, while a simple Deep Neural Network alone can learn, or discover, a (proximation of the) profit-maximizing indicator from billions of candidates, which themselves are, and can approximate, any continuous function of historical price, including the true indicator that we ever want to discover.
 
