@@ -3,7 +3,7 @@ Automatic Trading Bot based on AI-based indicators.
 
 **Is it time to enter a position? What is the challenge?**
 
-While both of them are the core questions for an automatic trading bot, "Is it time to enter a position?" is more important than "Is it time to exit the position?", as exiting a position has two obvious scenarios: Take Profit and Stop Loss. Entering a position, however, requires your confidence that the position will have chance to be existed with profit in the near future.
+While both of them is a core question for an automatic trading bot, "Is it time to enter a position?" is more important than "Is it time to exit the position?", as exiting a position has two obvious scenarios: Take Profit and Stop Loss. Entering a position, however, requires your confidence that the position will have chance to be existed with profit in the near future.
 
 Let's think of a simple enter-and-exit round of trading, which is a buy-and-sell round in spot markets. 
 
