@@ -1,3 +1,7 @@
-1. The hierachical structure of the engine of trading bot is parameterized in terms of Traders, Strategies, Indicators, and Exchanges.
-2. A novel, papameterized, synchronized collaboration between the following objects are designed and implemented: Traders, Strategies, and Indicators.
+1. The hierachical structure of the engine of trading bot, in terms of trader, stragegies, indicators, and exchanges, is factorized as external data.
+
+
+2. A novel, papameterized, synchronized collaboration between the traders, stragegies, and indicators are designed and implemented.
+
+
 3. A novel compression of historic price data is introduced.
